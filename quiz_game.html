@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Guess The Word</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="quiz_game.css">
+
+	
+</head>
+
+<body>
+	<span id="p1name"></span><span id="p1score"></span>
+	<br>
+	<span id="p2name"></span><span id="p2score"></span>
+	<center>
+		<h1 style="color: white;">Math Quiz game</h1>
+		<h2 id="questionTurn"></h2>
+		<h2 id="answerTurn"></h2>
+		<div id="output" class="col-lg-6"></div>
+		<div id="math" style="width: 30%;">
+			<h2>number1</h2>
+			<input type="number" placeholder="enter first number" class="form-control" id="num1" style="width: 30%;">
+
+			<h2>number2</h2>
+			<input type="number" placeholder="enter second number" class="form-control" id="num2" style="width: 30%;">
+<br><br>
+			<button onclick="send()" class="btn btn-success">send</button>
+		</div>
+
+	</center>
+	<script src="quiz_game.js"></script>
+</body>
+
+</html>
